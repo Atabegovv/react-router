@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 function Menu() {
 	return (
@@ -8,6 +8,9 @@ function Menu() {
 			</NavLink>
 			<NavLink to="about">about</NavLink>
 			<NavLink to="contacts">contacts</NavLink>
+			<NavLink to="courses" end>
+				courses
+			</NavLink>
 		</nav>
 	);
 }
